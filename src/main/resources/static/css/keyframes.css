@@ -1,0 +1,32 @@
+@keyframes selection {
+    25% {
+        transform: scale(125%);
+    }
+    50% {
+        transform: scale(150%);
+    }
+    75% {
+        transform: scale(125%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+
+}
+
+@keyframes born {
+    from {
+        transform: scale(0%);
+    }
+    to {
+        transform: scale(100%);
+    }
+
+}
+
+@keyframes left {
+    to {
+        transform: translateY(1000%)
+    }
+
+}

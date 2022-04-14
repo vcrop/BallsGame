@@ -27,19 +27,5 @@
     box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2);
     background: radial-gradient(circle at top left, var(--color1), var(--color2));
 
-    animation: left 500ms forwards;
-
 }
 
-.red {
-    --color1: #e1d767;
-    --color2: #d3f6da;
-
-}
-
-@keyframes left {
-    to {
-        transform: translateY(1000%)
-    }
-
-}
